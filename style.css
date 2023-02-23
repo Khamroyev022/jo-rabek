@@ -1,0 +1,651 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+body {
+  overflow-x: hidden;
+}
+body #begin {
+  background: url(./Mask.png);
+  width: 100%;
+  height: 860px;
+  position: absolute;
+}
+body #begin .menu {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body #begin .menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+body #begin .menu .login {
+  position: relative;
+  left: 25px;
+  background: url(./Rectangle\ \(1\).png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 155px;
+  gap: 30px;
+  width: 500px;
+}
+body #begin .menu .login button {
+  width: 80px;
+  height: 30px;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+}
+body #begin .menu .login img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+body #begin .menu .login .chiziq {
+  width: 3px;
+  height: 30px;
+  background: rgb(82, 80, 80);
+}
+body #begin .container1 {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  margin-top: 70px;
+}
+body #begin .container1 img {
+  width: 600px;
+}
+body #begin .container1 .lorem {
+  position: relative;
+  left: 55px;
+}
+body #begin .container1 .lorem h1 {
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  bottom: 40px;
+}
+body #begin .container1 .lorem .nam p {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+body #begin .container1 .lorem .button2 {
+  position: relative;
+  top: 30px;
+  gap: 30px;
+  display: flex;
+}
+body #begin .container1 .lorem .button2 h2 {
+  font-size: 30px;
+  color: #fff;
+}
+body #begin .container1 .lorem .button2 input {
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  background: #00BCD4;
+  font-weight: 900;
+  color: white;
+}
+body #begin .container2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  color: #fff;
+}
+body #begin .container2 .chiziq {
+  width: 2px;
+  height: 70px;
+  background: rgb(82, 80, 80);
+}
+body .fon {
+  width: 100%;
+  height: 1450px;
+  background: #303030;
+}
+body .fon .mainfuture {
+  width: 100%;
+  height: 600px;
+  padding-top: 900px;
+  background: #424242;
+  top: 900px;
+  color: #fff;
+}
+body .fon .mainfuture h1 {
+  position: relative;
+  top: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+body .fon .mainfuture .div {
+  margin-left: 520px;
+  width: 230px;
+  height: 10px;
+  background: #46b8c7;
+}
+body .fon .mainfuture .card2 {
+  margin-top: 10px;
+  text-align: center;
+}
+body .fon .mainfuture .card2 h2 {
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body .fon .mainfuture .foto0 {
+  position: relative;
+  top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .fon .mainfuture .foto0 .video {
+  margin-right: 250px;
+  display: flex;
+  width: 150px;
+  height: 152px;
+  background: url(./Rectangle.png);
+}
+body .fon .mainfuture .foto0 .video h2 {
+  position: absolute;
+  top: 70px;
+  right: 805px;
+  color: rgba(255, 255, 255, 0.54);
+}
+body .fon .mainfuture .foto0 .video img {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 170px;
+  height: 130px;
+}
+body .fon .mainfuture .foto0 .Profession {
+  display: flex;
+  width: 150px;
+  height: 152px;
+  background: url(./Rectangle.png);
+}
+body .fon .mainfuture .foto0 .Profession h2 {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  color: rgba(255, 255, 255, 0.54);
+}
+body .fon .mainfuture .foto0 .Profession img {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 170px;
+  height: 130px;
+}
+body .fon .mainfuture .foto0 {
+  margin-top: 30px;
+  position: relative;
+  top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .fon .mainfuture .foto0 .video {
+  margin-right: 250px;
+  display: flex;
+  width: 150px;
+  height: 152px;
+  background: url(./Rectangle.png);
+}
+body .fon .mainfuture .foto0 .video h2 {
+  position: absolute;
+  top: 70px;
+  right: 805px;
+  color: rgba(255, 255, 255, 0.54);
+}
+body .fon .mainfuture .foto0 .video img {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 170px;
+  height: 130px;
+}
+body .fon .mainfuture .foto0 .video h1 {
+  margin-left: 40px;
+}
+body .fon .mainfuture .foto0 .Profession {
+  display: flex;
+  width: 150px;
+  height: 152px;
+  background: url(./Rectangle.png);
+}
+body .fon .mainfuture .foto0 .Profession h2 {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  color: rgba(255, 255, 255, 0.54);
+}
+body .fon .mainfuture .foto0 .Profession img {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 130px;
+  height: 130px;
+}
+body .fon .mainfuture .foto0 .Profession h1 {
+  margin-left: 40px;
+}
+body .fon1 {
+  width: 100%;
+  height: 3865px;
+  background: #303030;
+}
+body #container3 {
+  position: relative;
+  border-radius: 0px 100px 0px 0px;
+  width: 1200px;
+  height: 500px;
+  background: #234649;
+  color: #fff;
+}
+body #container3 .asos .text {
+  padding-top: 40px;
+  padding-left: 150px;
+  color: #fff;
+}
+body #container3 .asos .text h1 {
+  position: relative;
+  top: 15px;
+}
+body #container3 .asos .text h2 {
+  margin-top: 10px;
+}
+body #container3 .asos .text div {
+  width: 150px;
+  height: 10px;
+  background: rgb(255, 145, 0);
+}
+body #container3 .asos .icon2 {
+  position: relative;
+  left: 1000px;
+  bottom: 25px;
+}
+body #container3 .asos .icon2 a {
+  color: #00BCD4;
+}
+body #container3 .playmarket {
+  display: flex;
+  justify-content: space-evenly;
+}
+body #container3 .playmarket img {
+  width: 350px;
+}
+body #container3 .playmarket .instand {
+  position: relative;
+  border-radius: 20px;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  background: #424242;
+}
+body #container3 .playmarket .instand .div1 {
+  width: 140px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  height: 20px;
+}
+body #container3 .playmarket .instand .div1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00BCD4;
+  font-size: 15px;
+}
+body #container3 .playmarket .instand img {
+  width: 150px;
+}
+body .Course {
+  position: absolute;
+  width: 1200px;
+  background: #593D26;
+  height: 900px;
+  mix-blend-mode: normal;
+  border-radius: 0px 0px 100px 0px;
+  color: #fff;
+}
+body .Course .asos {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+body .Course .asos .txt h1 {
+  position: relative;
+  top: 20px;
+}
+body .Course .asos .txt div {
+  width: 170px;
+  height: 15px;
+  background: #46b8c7;
+}
+body .Course .courselorem {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+body .Course .courselorem .see {
+  margin-left: 100px;
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}
+body .Course .courselorem .see h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+body .Course .courselorem .div {
+  position: relative;
+  left: 120px;
+  font-size: 25px;
+}
+body .Course .courselorem .div span a {
+  color: #00BCD4;
+}
+body .Course .courselorem .div a {
+  color: #00BCD4;
+}
+body .Course .div1 {
+  margin-left: 150px;
+  width: 1000px;
+  height: 40px;
+  opacity: 0.2;
+  background: #000;
+  border-radius: 20px;
+}
+body .Course .cardlorem10 {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  left: 20px;
+}
+body .Course .cardlorem10 .box0 {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+body .Course .cardlorem10 .box0 .box {
+  margin: 0 -30px;
+  width: 200px;
+  height: 55px;
+  border-radius: 24px;
+  background: #000;
+  box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(80deg);
+}
+body .Course .cardlorem10 .box0 .box .card5 {
+  width: 180px;
+  height: 35px;
+  border-radius: 24px;
+  background: #CCFABC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Course .cardlorem10 .box0 .box .card3 {
+  display: flex;
+  width: 150px;
+  height: 25px;
+  background: #FF6F00;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .Course .cardlorem10 .imgdetail img {
+  width: 250px;
+}
+body .Aboute {
+  display: flex;
+  margin-top: 1000px;
+  color: #fff;
+}
+body .Aboute .div7 {
+  width: 150px;
+  height: 10px;
+  background: orange;
+}
+body .Aboute h1 {
+  top: 15px;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body .Aboute h2 {
+  margin-top: 20px;
+  font-size: 15px;
+}
+body .Aboute .button1 input[type=button] {
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background: orange;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body .Test {
+  text-align: center;
+  color: #fff;
+}
+body .Test .test1 {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  justify-content: space-around;
+}
+body .Test .test1 .nam {
+  font-size: 13px;
+  width: 550px;
+  height: 200px;
+  background: #5f5f56;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+body .Test .test1 .nam .txttest {
+  width: 500px;
+  height: 150px;
+  position: relative;
+  bottom: 70px;
+}
+body .Test .test1 .nam img {
+  width: 100px;
+  position: relative;
+  bottom: 60px;
+  right: 150px;
+}
+body .Test .test1 .icontest {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgb(104, 103, 103);
+  font-size: 30px;
+}
+body .Update .txtupdate {
+  margin-left: 150px;
+  color: #fff;
+}
+body .Update .txtupdate h1 {
+  position: relative;
+  top: 15px;
+}
+body .Update .txtupdate h2 {
+  margin-top: 15px;
+}
+body .Update .txtupdate .div {
+  cursor: pointer;
+  width: 150px;
+  height: 12px;
+  background: orange;
+}
+body .Update img {
+  width: 1200px;
+}
+body .End {
+  margin-top: 100px;
+  width: 100%;
+  height: 800px;
+  background: url(./Background.png);
+}
+body .End .subcribe {
+  width: 500px;
+  margin-left: 500px;
+  color: white;
+}
+body .End .subcribe h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+body .End .subcribe h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 100;
+}
+body .End .addres {
+  width: 450px;
+  height: 50px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 490px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+body .End .addres button {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+  background: rgb(6, 93, 194);
+  color: #fff;
+  border: none;
+}
+body .End .end2 {
+  margin-top: 50px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+body .End .end2 h1 {
+  font-size: 20px;
+}
+body .End .end2 .company {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+body .End .end2 .company img {
+  width: 150px;
+}
+body .End .end2 .company h3 {
+  font-size: 15px;
+}
+body .End .end2 .company h2 {
+  color: #B2EBF2;
+}
+body .End .end2 .servise {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+body .End .end2 .servise img {
+  width: 150px;
+}
+body .End .end2 .servise h3 {
+  font-size: 15px;
+}
+body .End .end2 .servise h1 {
+  color: #B2EBF2;
+}
+body .End .end2 .resources {
+  font-family: 100;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+body .End .end2 .resources img {
+  width: 150px;
+}
+body .End .end2 .resources h3 {
+  font-size: 15px;
+}
+body .End .end2 .resources h1 {
+  color: #B2EBF2;
+}
+body .End .end2 .logo0 {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+}
+body .End .end2 .logo0 img {
+  width: 150px;
+}
+body .End .end2 .logo0 h3 {
+  font-size: 15px;
+}
+body .End .end2 .logo11 img {
+  cursor: pointer;
+}
+body .End .end2 .logo11 .input {
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid green;
+  border-radius: 5px;
+  justify-content: space-around;
+  background: #424242;
+  color: white;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
